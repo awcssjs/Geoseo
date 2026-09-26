@@ -323,3 +323,33 @@ a { transition: all .25s ease; }
 @media(max-width:900px){.hpxyzblg-section{max-width:100%;}.hpxyzblg-header{margin-bottom:28px;gap:20px;}.hpxyzblg-title{font-size:40px;letter-spacing:-1px;}.hpxyzblg-grid{gap:20px;}.hpxyzblg-image,.hpxyzblg-no-image{height:190px;}.hpxyzblg-card-title{font-size:20px;line-height:1.35;}.hpxyzblg-view-all{min-width:145px;height:52px;padding:0 22px;font-size:13px;}.hpxyzblg-button{min-width:150px;height:42px;padding:0 22px;}}
 @media(max-width:767px){.hpxyzblg-section{width:100%;max-width:100%;padding:0 20px;}.hpxyzblg-header{align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:28px;}.hpxyzblg-title{font-size:34px;line-height:1.1;letter-spacing:-.8px;}.hpxyzblg-view-all{min-width:auto;height:48px;padding:0 18px;font-size:12px;letter-spacing:.8px;}.hpxyzblg-grid{grid-template-columns:1fr;gap:40px;}.hpxyzblg-image{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;}.hpxyzblg-no-image{width:100%;height:auto;aspect-ratio:16/9;}.hpxyzblg-card-title{margin:14px 0 22px;font-size:21px;line-height:1.35;letter-spacing:-.2px;}.hpxyzblg-button{min-width:150px;height:42px;padding:0 22px;font-size:12px;}.hpxyzblg-test{margin:20px 0;padding:20px;font-size:17px;}}
 @media(max-width:480px){.hpxyzblg-section{padding:0 15px;}.hpxyzblg-header{align-items:center;gap:12px;}.hpxyzblg-title{font-size:30px;}.hpxyzblg-view-all{height:44px;padding:0 14px;font-size:11px;}.hpxyzblg-grid{gap:35px;}.hpxyzblg-card-title{font-size:20px;}}
+
+/* ==========================
+   GEO SEO CONTACT FORM
+========================== */
+.gs-contact-wrapper{max-width:900px;margin:auto;font-family:Arial,Helvetica,sans-serif;}
+.gs-contact-wrapper .wpcf7-form-control-wrap{display:block;width:100%;}
+.gs-contact-wrapper p{margin:0;padding:0;}
+.gs-contact-wrapper br{display:none;}
+.gs-form-row{display:flex;gap:22px;margin-bottom:18px;}
+.gs-form-group{flex:1;}
+.gs-form-group label{display:block;margin-bottom:8px;font-size:15px;font-weight:600;color:#222;}
+.gs-form-group label span{color:#ff2a2a;}
+.gs-input-icon{position:relative;}
+.gs-user-icon:before,.gs-email-icon:before,.gs-phone-icon:before,.gs-web-icon:before,.gs-message-icon:before{position:absolute;left:18px;top:50%;transform:translateY(-50%);font-size:18px;color:#8d96a8;}
+.gs-user-icon:before{content:"👤";}
+.gs-email-icon:before{content:"✉";}
+.gs-phone-icon:before{content:"☎";}
+.gs-web-icon:before{content:"🌐";}
+.gs-message-icon:before{content:"✎";top:22px;transform:none;}
+.gs-contact-wrapper input,.gs-contact-wrapper textarea{width:100%;display:block;box-sizing:border-box;border:1px solid #dfe5f0;border-radius:12px;background:#fff;padding:16px 18px 16px 10px;font-size:15px;color:#222;transition:.3s;}
+.gs-contact-wrapper textarea{height:160px;resize:none;padding-top:18px;}
+.gs-contact-wrapper input:focus,.gs-contact-wrapper textarea:focus{outline:none;border-color:#2d5cff;box-shadow:0 0 0 3px rgba(45,92,255,.12);}
+.gs-contact-wrapper ::placeholder{color:#a2a9b7;}
+.gs-submit-btn{margin-top:18px;}
+.gs-submit-btn input{width:100%;border:none;border-radius:10px;padding:17px;font-size:17px;font-weight:600;color:#fff;cursor:pointer;background:linear-gradient(90deg,#1f57ff,#2a2df6);transition:.3s;}
+.gs-submit-btn input:hover{opacity:.92;}
+.gs-secure-text{margin-top:14px;font-size:13px;color:#8b93a5;}
+.wpcf7-not-valid-tip{margin-top:5px;font-size:13px;}
+.wpcf7-response-output{margin-top:20px!important;}
+@media(max-width:768px){.gs-form-row{flex-direction:column;gap:18px;}.gs-contact-wrapper{padding:0 15px;}.gs-contact-wrapper input,.gs-contact-wrapper textarea{font-size:14px;}}
