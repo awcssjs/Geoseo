@@ -411,3 +411,4 @@ a { transition: all .25s ease; }
 .geo-blog-sidebar .cat-item{list-style:none!important;}
 .geo-blog-sidebar .cat-item::marker{display:none!important;content:""!important;}
 .single-post .widget_block h2.wp-block-heading { font-size: 22px !important; }
+.wp-block-search__label { display: none !important;}
