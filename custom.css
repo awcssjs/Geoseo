@@ -353,3 +353,58 @@ a { transition: all .25s ease; }
 .wpcf7-not-valid-tip{margin-top:5px;font-size:13px;}
 .wpcf7-response-output{margin-top:20px!important;}
 @media(max-width:768px){.gs-form-row{flex-direction:column;gap:18px;}.gs-contact-wrapper{padding:0 15px;}.gs-contact-wrapper input,.gs-contact-wrapper textarea{font-size:14px;}}
+/* =========================================================
+   Geo BLOG PAGE 290926
+   Kadence Child Theme
+   ========================================================= */
+
+.geo-blog-page{width:100%;background:#fff;padding:42px 0 60px;}
+.geo-blog-container{width:min(1280px,calc(100% - 60px));margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:30px;align-items:start;}
+.geo-blog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+.geo-blog-card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,.1);margin:0;padding:0;display:flex;flex-direction:column;}
+.geo-blog-image{display:block;width:100%;height:225px;overflow:hidden;}
+.geo-blog-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s ease;}
+.geo-blog-image:hover img{transform:scale(1.02);}
+.geo-blog-card-content{padding:0 16px 18px;display:flex;flex-direction:column;flex:1;}
+.geo-blog-title{margin:10px 0 9px;padding:0;font-size:21px;line-height:1.35;font-weight:700;}
+.geo-blog-title a{color:#111;text-decoration:none;}
+.geo-blog-title a:hover{color:#0d407c;}
+.geo-blog-date{font-size:14px;line-height:1.5;color:#777;margin-bottom:10px;}
+.geo-blog-excerpt{font-size:17px;line-height:1.65;color:#333;margin-bottom:15px;}
+.geo-read-more{align-self:flex-start;display:inline-block;background:#0d407c;color:#fff!important;padding:10px 17px;border-radius:4px;font-size:15px;line-height:1.3;font-weight:600;text-decoration:none!important;transition:background .2s ease;}
+.geo-read-more:hover{background:#092f5d;color:#fff!important;}
+.geo-blog-sidebar{background:#f5f5f5;padding:20px;border-radius:4px;}
+.geo-sidebar-widget{margin:0 0 30px;}
+.geo-sidebar-widget:last-child{margin-bottom:0;}
+.geo-blog-search{display:flex;width:100%;}
+.geo-blog-search input{width:100%;min-width:0;height:44px;border:1px solid #d5d5d5;border-right:0;border-radius:5px 0 0 5px;padding:0 12px;font-size:15px;background:#fff;}
+.geo-blog-search input:focus{outline:none;border-color:#0d407c;}
+.geo-blog-search button{flex:0 0 auto;height:44px;background:#0d407c;color:#fff;border:0;border-radius:0 5px 5px 0;padding:0 18px;font-size:15px;font-weight:500;cursor:pointer;}
+.geo-sidebar-widget h3{margin:0 0 12px;font-size:20px;line-height:1.4;font-weight:500;color:#111;}
+.geo-blog-sidebar ul{list-style:none;margin:0;padding:0;}
+.geo-blog-sidebar ul li{margin:0 0 10px;padding:0;}
+.geo-blog-sidebar ul li a{color:#07529a;font-size:16px;line-height:1.5;text-decoration:none;}
+.geo-blog-sidebar ul li a:hover{color:#0d407c;}
+.geo-recent-posts li{margin-bottom:12px!important;}
+.geo-recent-posts li a{display:block;line-height:1.45;}
+.geo-blog-pagination{margin-top:30px;text-align:center;}
+.geo-blog-pagination ul{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:5px;list-style:none;margin:0;padding:0;}
+.geo-blog-pagination li{margin:0!important;}
+.geo-blog-pagination a,.geo-blog-pagination span{display:flex;align-items:center;justify-content:center;min-width:38px;height:38px;padding:0 10px;border-radius:5px;background:#f1f1f1;color:#111;font-size:15px;text-decoration:none;}
+.geo-blog-pagination .current{background:#0d407c;color:#fff;}
+.geo-blog-pagination a:hover{background:#0d407c;color:#fff;}
+
+@media(max-width:1100px){
+.geo-blog-container{grid-template-columns:minmax(0,1fr) 300px;}
+.geo-blog-title{font-size:19px;}
+}
+
+@media(max-width:767px){
+.geo-blog-page{padding:30px 0 45px;}
+.geo-blog-container{width:min(100% - 30px,600px);display:block;}
+.geo-blog-grid{grid-template-columns:1fr;gap:24px;}
+.geo-blog-sidebar{margin-top:30px;}
+.geo-blog-image{height:auto;aspect-ratio:1.55/1;}
+.geo-blog-title{font-size:20px;}
+.geo-blog-excerpt{font-size:16px;}
+}
